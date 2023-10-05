@@ -1,0 +1,19 @@
+body{
+    font-family: Georgia, serif;
+}
+a.nav-link {
+    color: white;
+}
+a.nav-link hover {
+    color: white;
+}
+a.navbar-brand {
+    color: wheat;
+}
+.card-header.bg-success.mb-3 {
+    color: white;
+}
+.card-footer.bg-success {
+color: white;
+}
+
