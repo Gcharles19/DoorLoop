@@ -16,9 +16,9 @@ class Status(models.Model):
 
 class Estate(models.Model):
     Id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    Name = models.CharField(max_length=10)
-    Address = models.CharField(max_length=10)
-    Contact = models.CharField(max_length=10)
+    Name = models.CharField(max_length=50)
+    Address = models.CharField(max_length=50)
+    Contact = models.CharField(max_length=50)
     StatusID = models.IntegerField
     Created_on = models.DateTimeField(null=False, default=timezone.now)
 
